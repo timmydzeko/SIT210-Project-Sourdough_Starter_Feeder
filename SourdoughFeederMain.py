@@ -4,7 +4,7 @@ import motor_control_h as step
 import system_mode_h as mode
 from twilio.rest import Client as clnt
 account_sid = 'YOUR_ACCOUNT_SID_HERE'
-auth_token = 'YOUR_SECRET_AUTH_CODE_HERE'
+auth_token = 'YOUR_SECRET_AUTH_TOKEN_HERE'
 text_client = clnt(account_sid, auth_token)
 
 
